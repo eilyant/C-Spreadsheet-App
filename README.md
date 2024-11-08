@@ -10,14 +10,14 @@ Features
 	2.	Grade Distribution Histogram: Graphically represents the distribution of grades across the class.
 	3.	Sorting Options: Allows sorting based on student ID, last name, exam grade, or total grade.
 	4.	Data Modification:
-	•	Update last names or exam grades for specific students.
+		•	Update last names or exam grades for specific students.
 	5.	Adjustable Grade Mapping: Configure custom grade boundaries to adjust letter grades.
 	6.	Student Removal: Remove students from the dataset easily.
 
 How It Works
 
 The application reads a students.txt file where each line contains:
-<Student ID>|<Last Name>|<First Name>|<Assignment 1>|<Assignment 2>|<Assignment 3>|<Midterm>|<Exam>
+''' <Student ID>|<Last Name>|<First Name>|<Assignment 1>|<Assignment 2>|<Assignment 3>|<Midterm>|<Exam> '''
 Grades are parsed, weighted, and displayed with letter grades based on configurable thresholds.
 Menu Options
 
