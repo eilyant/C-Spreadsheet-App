@@ -17,7 +17,9 @@ Features
 How It Works
 
 The application reads a students.txt file where each line contains:
-''' <Student ID>|<Last Name>|<First Name>|<Assignment 1>|<Assignment 2>|<Assignment 3>|<Midterm>|<Exam> '''
+```
+ <Student ID>|<Last Name>|<First Name>|<Assignment 1>|<Assignment 2>|<Assignment 3>|<Midterm>|<Exam>
+```
 Grades are parsed, weighted, and displayed with letter grades based on configurable thresholds.
 Menu Options
 
